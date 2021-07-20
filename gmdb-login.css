@@ -6,10 +6,6 @@
     padding: .7em 0 .7em 0;
 }
 
-.search {
-    resize: horizontal;
-    width: 7em;
-}
 .top-left {
     display: flex;
     flex-direction: row;
@@ -41,4 +37,10 @@
 .login > button {
     margin: 1em 0 0 0;
     width: 5em;
+}
+
+@media screen and (max-width: 400px) {
+    .search {
+        width: 30vw;
+    }
 }

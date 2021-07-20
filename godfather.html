@@ -2,11 +2,14 @@
 <html lang="en">
 
 <head>
+    <link rel="stylesheet" href="godfather.css">
     <link rel="stylesheet" href="gmdb-movies.css">
     <link rel="stylesheet" href="gmdb-login.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+        integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
+
 <body>
     <navbar class="navbar row">
         <div class="top-left">
@@ -15,7 +18,34 @@
             <a href="gmdb-login.html">Login</a>
         </div>
         <div class="top-right">
-            <input placeholder="Search">
+            <input class="search"placeholder="Search">
             <button type="button" class="btn btn-small btn-outline-warning">Search</button>
         </div>
     </navbar>
+    <div class="results">
+        <p>Back to Results</p>
+    </div>
+
+    <div class="featured">
+        <div class="featured-mid">
+            <img src="resources/godfather.png">
+            <div class="comment">
+            <p><label>Leave a Comment:</label></p>
+            <input>
+
+            <button class="btn btn-primary" type="submit">Submit</button>
+        </div>
+        </div>
+
+        <div class="about">
+            <h3>The Godfather</h3>
+            <h6>Released Mar 24, 1972</h6>
+            <p>Crime, Drama | Marlon Brando, Al Pacino, James Caan, Richard S. Costello</p>
+            <p>An organized crime dynasty's aging patriarch transfers control of his clandestine empire to his reluctant
+                son.</p>
+        </div>
+
+    </div>
+</body>
+
+</html>

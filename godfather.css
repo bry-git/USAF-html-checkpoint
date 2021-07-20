@@ -1,0 +1,23 @@
+
+.featured {
+    display: flex;
+    flex-direction: row;
+}
+.featured-mid > img {
+    width: 90%;
+    padding-top: 20%;
+}
+.featured-mid {
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 0 0
+}
+.comment {
+    margin: 0 0 0 1em
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
